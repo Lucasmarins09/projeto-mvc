@@ -6,7 +6,7 @@ import java.sql.*;
 public class ConnectionFactory {
 
 
-    public static final String PATH = "jdbc:postgresql://localhost:5432/gjyg";
+    public static final String PATH = "jdbc:postgresql://localhost:5432/superdev_db";
     public static final String USER = "postgres";
     public static final String PASSWORD = "postgres";
 
