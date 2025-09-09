@@ -12,10 +12,13 @@ public class ConnectionTest {
         Connection connection = ConnectionFactory.getConnection();
 
         if (connection != null) {
-            System.out.println("Conectado com sucesso");
-        }else {
-            System.out.println("Erro na conexão");
+            System.out.println("Conexão realizada com sucesso!");
+        } else {
+            System.out.println("Erro na conexão...");
         }
+
         connection.close();
+
     }
+
 }
